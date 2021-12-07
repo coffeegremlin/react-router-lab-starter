@@ -5,7 +5,9 @@ export default function App() {
         <div>
           <nav style={{
           borderBottom: "solid 1px", 
-          paddingBottom: "1rem"
+          paddingBottom: "1rem",
+          display: 'flex',
+          gap: '10px'
         }}>
             <Link to="/home">Go to Home Page</Link>
             <Link to="/procedures">See Our Procedures</Link>
